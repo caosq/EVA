@@ -1,0 +1,29 @@
+﻿生成启动时间为 2020/7/23 21:56:38。
+     1>项目“D:\laoc\C_EVA\EVA_NDE - 1\MMDevice\MMDevice-SharedRuntime.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“D:\laoc\C_EVA\EVA_NDE - 1\build\intermediates\Debug\x64\MMDevice-SharedRuntime\MMDevice-SharedRuntime.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I"D:\laoc\C_EVA\EVA_NDE - 1\\..\..\..\3rdpartypublic\boost-versions\boost_1_55_0" /Zi /nologo /W4 /WX- /Od /D WIN32 /D _DEBUG /D _LIB /D MODULE_EXPORTS /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"D:\laoc\C_EVA\EVA_NDE - 1\build\intermediates\Debug\x64\MMDevice-SharedRuntime\\" /Fd"D:\laoc\C_EVA\EVA_NDE - 1\build\intermediates\Debug\x64\MMDevice-SharedRuntime\vc100.pdb" /Gd /TP /wd4127 /wd4290 /errorReport:prompt Debayer.cpp DeviceUtils.cpp ImgBuffer.cpp MMDevice.cpp ModuleInterface.cpp Property.cpp
+         Property.cpp
+         ModuleInterface.cpp
+         MMDevice.cpp
+         ImgBuffer.cpp
+         DeviceUtils.cpp
+         Debayer.cpp
+         Generating Code...
+       Lib:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\Lib.exe /OUT:"D:\laoc\C_EVA\EVA_NDE - 1\build\Debug\x64\MMDevice-SharedRuntime.lib" /NOLOGO "D:\laoc\C_EVA\EVA_NDE - 1\build\intermediates\Debug\x64\MMDevice-SharedRuntime\Debayer.obj"
+         "D:\laoc\C_EVA\EVA_NDE - 1\build\intermediates\Debug\x64\MMDevice-SharedRuntime\DeviceUtils.obj"
+         "D:\laoc\C_EVA\EVA_NDE - 1\build\intermediates\Debug\x64\MMDevice-SharedRuntime\ImgBuffer.obj"
+         "D:\laoc\C_EVA\EVA_NDE - 1\build\intermediates\Debug\x64\MMDevice-SharedRuntime\MMDevice.obj"
+         "D:\laoc\C_EVA\EVA_NDE - 1\build\intermediates\Debug\x64\MMDevice-SharedRuntime\ModuleInterface.obj"
+         "D:\laoc\C_EVA\EVA_NDE - 1\build\intermediates\Debug\x64\MMDevice-SharedRuntime\Property.obj"
+         MMDevice-SharedRuntime.vcxproj -> D:\laoc\C_EVA\EVA_NDE - 1\build\Debug\x64\MMDevice-SharedRuntime.lib
+       FinalizeBuildStatus:
+         正在删除文件“D:\laoc\C_EVA\EVA_NDE - 1\build\intermediates\Debug\x64\MMDevice-SharedRuntime\MMDevice-SharedRuntime.unsuccessfulbuild”。
+         正在对“D:\laoc\C_EVA\EVA_NDE - 1\build\intermediates\Debug\x64\MMDevice-SharedRuntime\MMDevice-SharedRuntime.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\laoc\C_EVA\EVA_NDE - 1\MMDevice\MMDevice-SharedRuntime.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:04.05

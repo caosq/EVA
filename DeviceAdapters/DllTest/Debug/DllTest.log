@@ -1,0 +1,28 @@
+﻿生成启动时间为 2017/6/3 星期六 上午 9:12:57。
+     1>项目“D:\laoc\C_EVA\EVA_NDE - 1\DeviceAdapters\DllTest\DllTest.vcxproj”在节点 3 上(build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(299,5): warning MSB8004: Output 目录未以斜杠结尾。此生成实例将添加斜杠，因为必须有这个斜杠才能正确计算 Output 目录。
+     1>InitializeBuildStatus:
+         正在创建“Debug\DllTest.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         d:\vs2010\VC\bin\CL.exe /c /I"D:\laoc\C_EVA\EVA_NDE - 1\MMDevice" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\DllTest.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         d:\vs2010\VC\bin\CL.exe /c /I"D:\laoc\C_EVA\EVA_NDE - 1\MMDevice" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\DllTest.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt DllTest.cpp DllTestDlg.cpp
+         DllTestDlg.cpp
+         DllTest.cpp
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0804" /IDebug\ /nologo /fo"Debug\DllTest.res" DllTest.rc 
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\DllTest.exe.embed.manifest.res" Debug\DllTest_manifest.rc 
+       Link:
+         d:\vs2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\build\Debug\x64\DllTest.exe" /INCREMENTAL /NOLOGO mmgr_dal_Picoscope.lib /MANIFEST /ManifestFile:"Debug\DllTest.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\laoc\C_EVA\EVA_NDE - 1\build\Debug\x64\DllTest.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\build\Debug\x64\DllTest.lib" /MACHINE:X86 Debug\DllTest.res
+         Debug\DllTest.exe.embed.manifest.res
+         Debug\DllTest.obj
+         Debug\DllTestDlg.obj
+         Debug\stdafx.obj
+     1>LINK : fatal error LNK1104: 无法打开文件“mmgr_dal_Picoscope.lib”
+     1>已完成生成项目“D:\laoc\C_EVA\EVA_NDE - 1\DeviceAdapters\DllTest\DllTest.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:05.61

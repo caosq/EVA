@@ -1,0 +1,29 @@
+﻿生成启动时间为 2017/5/29 星期一 上午 10:57:55。
+     1>项目“D:\laoc\EVA_NDE\DeviceAdapters\EVA_NDE\EVA_NDE.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“D:\laoc\EVA_NDE\build\intermediates\Debug\Win32\EVA_NDE\EVA_NDE.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         d:\vs2010\VC\bin\CL.exe /c /ID:\laoc\EVA_NDE\\..\..\MMDevice /I"D:\laoc\EVA_NDE\\..\..\..\3rdpartypublic\boost-versions\boost_1_55_0" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D EVA_NDE_EXPORTS /D MODULE_EXPORTS /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"D:\laoc\EVA_NDE\build\intermediates\Debug\Win32\EVA_NDE\\" /Fd"D:\laoc\EVA_NDE\build\intermediates\Debug\Win32\EVA_NDE\vc100.pdb" /Gd /TP /wd4127 /wd4290 /analyze- /errorReport:prompt EVA_NDE_TEST.cpp XYStage.cpp
+         XYStage.cpp
+     1>d:\laoc\eva_nde\deviceadapters\eva_nde\xystage.cpp(281): warning C4244: “=”: 从“double”转换到“long”，可能丢失数据
+     1>d:\laoc\eva_nde\deviceadapters\eva_nde\xystage.cpp(282): warning C4244: “=”: 从“double”转换到“long”，可能丢失数据
+     1>d:\laoc\eva_nde\deviceadapters\eva_nde\xystage.cpp(360): warning C4101: “ret”: 未引用的局部变量
+         EVA_NDE_TEST.cpp
+     1>d:\laoc\eva_nde\deviceadapters\eva_nde\eva_nde_test.cpp(171): warning C4101: “pEnd”: 未引用的局部变量
+     1>d:\laoc\eva_nde\deviceadapters\eva_nde\eva_nde_test.cpp(273): warning C4101: “pEnd”: 未引用的局部变量
+         正在生成代码...
+     1>d:\laoc\eva_nde\deviceadapters\eva_nde\xystage.cpp(270): warning C4715: “XYStage::GetPositionUm”: 不是所有的控件路径都返回值
+     1>d:\laoc\eva_nde\deviceadapters\eva_nde\xystage.cpp(500): warning C4700: 使用了未初始化的局部变量“ret”
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"D:\laoc\EVA_NDE\build\intermediates\Debug\Win32\EVA_NDE\mmgr_dal_EVA_NDE.dll.embed.manifest.res" D:\laoc\EVA_NDE\build\intermediates\Debug\Win32\EVA_NDE\mmgr_dal_EVA_NDE_manifest.rc 
+       Link:
+         d:\vs2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\laoc\EVA_NDE\build\Debug\Win32\mmgr_dal_EVA_NDE.dll" /INCREMENTAL /NOLOGO /LIBPATH:C:\Users\Administrator\Desktop\EVA\EVA_1 /LIBPATH:"D:\laoc\EVA_NDE\\..\..\..\3rdpartypublic\boost-versions\boost_1_55_0-lib-Win32" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"D:\laoc\EVA_NDE\build\intermediates\Debug\Win32\EVA_NDE\mmgr_dal_EVA_NDE.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\laoc\EVA_NDE\build\Debug\Win32\mmgr_dal_EVA_NDE.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\laoc\EVA_NDE\build\Debug\Win32\mmgr_dal_EVA_NDE.lib" /MACHINE:X86 /DLL D:\laoc\EVA_NDE\build\intermediates\Debug\Win32\EVA_NDE\mmgr_dal_EVA_NDE.dll.embed.manifest.res
+         D:\laoc\EVA_NDE\build\intermediates\Debug\Win32\EVA_NDE\EVA_NDE_TEST.obj
+         D:\laoc\EVA_NDE\build\intermediates\Debug\Win32\EVA_NDE\XYStage.obj
+         "D:\laoc\EVA_NDE\build\Debug\Win32\MMDevice-SharedRuntime.lib"
+     1>LINK : fatal error LNK1104: 无法打开文件“D:\laoc\EVA_NDE\build\Debug\Win32\MMDevice-SharedRuntime.lib”
+     1>已完成生成项目“D:\laoc\EVA_NDE\DeviceAdapters\EVA_NDE\EVA_NDE.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:02.63

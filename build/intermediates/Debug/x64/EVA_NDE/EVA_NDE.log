@@ -1,0 +1,46 @@
+﻿生成启动时间为 2020/7/23 21:56:42。
+     1>项目“D:\laoc\C_EVA\EVA_NDE - 1\DeviceAdapters\EVA_NDE\EVA_NDE.vcxproj”在节点 3 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“D:\laoc\C_EVA\EVA_NDE - 1\build\intermediates\Debug\x64\EVA_NDE\EVA_NDE.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I"D:\laoc\C_EVA\EVA_NDE - 1\\..\..\MMDevice" /I"D:\laoc\C_EVA\EVA_NDE - 1\\..\..\..\3rdpartypublic\boost-versions\boost_1_55_0" /Zi /nologo /W4 /WX- /Od /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D EVA_NDE_EXPORTS /D MODULE_EXPORTS /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"D:\laoc\C_EVA\EVA_NDE - 1\build\intermediates\Debug\x64\EVA_NDE\\" /Fd"D:\laoc\C_EVA\EVA_NDE - 1\build\intermediates\Debug\x64\EVA_NDE\vc100.pdb" /Gd /TP /wd4127 /wd4290 /errorReport:prompt EVA_NDE_TEST.cpp XYStage.cpp
+         XYStage.cpp
+     1>XYStage.cpp(281): warning C4244: “=”: 从“double”转换到“long”，可能丢失数据
+     1>XYStage.cpp(282): warning C4244: “=”: 从“double”转换到“long”，可能丢失数据
+     1>XYStage.cpp(360): warning C4101: “ret”: 未引用的局部变量
+     1>XYStage.cpp(491): warning C4100: “relative”: 未引用的形参
+     1>XYStage.cpp(491): warning C4100: “y”: 未引用的形参
+     1>XYStage.cpp(491): warning C4100: “x”: 未引用的形参
+         EVA_NDE_TEST.cpp
+     1>EVA_NDE_TEST.cpp(171): warning C4101: “pEnd”: 未引用的局部变量
+     1>EVA_NDE_TEST.cpp(273): warning C4101: “pEnd”: 未引用的局部变量
+         Generating Code...
+     1>d:\laoc\c_eva\eva_nde - 1\deviceadapters\eva_nde\xystage.cpp(270): warning C4715: “XYStage::GetPositionUm”: 不是所有的控件路径都返回值
+     1>d:\laoc\c_eva\eva_nde - 1\deviceadapters\eva_nde\xystage.cpp(500): warning C4700: 使用了未初始化的局部变量“ret”
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"D:\laoc\C_EVA\EVA_NDE - 1\build\intermediates\Debug\x64\EVA_NDE\mmgr_dal_EVA_NDE.dll.embed.manifest.res" "D:\laoc\C_EVA\EVA_NDE - 1\build\intermediates\Debug\x64\EVA_NDE\mmgr_dal_EVA_NDE_manifest.rc" 
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\laoc\C_EVA\EVA_NDE - 1\build\Debug\x64\mmgr_dal_EVA_NDE.dll" /INCREMENTAL /NOLOGO /LIBPATH:C:\Users\Administrator\Desktop\EVA\EVA_1 /LIBPATH:"D:\laoc\C_EVA\EVA_NDE - 1\\..\..\..\3rdpartypublic\boost-versions\boost_1_55_0-lib-x64" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"D:\laoc\C_EVA\EVA_NDE - 1\build\intermediates\Debug\x64\EVA_NDE\mmgr_dal_EVA_NDE.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\laoc\C_EVA\EVA_NDE - 1\build\Debug\x64\mmgr_dal_EVA_NDE.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\laoc\C_EVA\EVA_NDE - 1\build\Debug\x64\mmgr_dal_EVA_NDE.lib" /MACHINE:X64 /DLL "D:\laoc\C_EVA\EVA_NDE - 1\build\intermediates\Debug\x64\EVA_NDE\mmgr_dal_EVA_NDE.dll.embed.manifest.res"
+         "D:\laoc\C_EVA\EVA_NDE - 1\build\intermediates\Debug\x64\EVA_NDE\EVA_NDE_TEST.obj"
+         "D:\laoc\C_EVA\EVA_NDE - 1\build\intermediates\Debug\x64\EVA_NDE\XYStage.obj"
+         "D:\laoc\C_EVA\EVA_NDE - 1\build\Debug\x64\MMDevice-SharedRuntime.lib"
+            正在创建库 D:\laoc\C_EVA\EVA_NDE - 1\build\Debug\x64\mmgr_dal_EVA_NDE.lib 和对象 D:\laoc\C_EVA\EVA_NDE - 1\build\Debug\x64\mmgr_dal_EVA_NDE.exp
+         EVA_NDE.vcxproj -> D:\laoc\C_EVA\EVA_NDE - 1\build\Debug\x64\mmgr_dal_EVA_NDE.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"D:\laoc\C_EVA\EVA_NDE - 1\build\intermediates\Debug\x64\EVA_NDE\mmgr_dal_EVA_NDE.dll.embed.manifest" /manifest "D:\laoc\C_EVA\EVA_NDE - 1\build\intermediates\Debug\x64\EVA_NDE\mmgr_dal_EVA_NDE.dll.intermediate.manifest"
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"D:\laoc\C_EVA\EVA_NDE - 1\build\intermediates\Debug\x64\EVA_NDE\mmgr_dal_EVA_NDE.dll.embed.manifest.res" "D:\laoc\C_EVA\EVA_NDE - 1\build\intermediates\Debug\x64\EVA_NDE\mmgr_dal_EVA_NDE_manifest.rc" 
+       LinkEmbedManifest:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\laoc\C_EVA\EVA_NDE - 1\build\Debug\x64\mmgr_dal_EVA_NDE.dll" /INCREMENTAL /NOLOGO /LIBPATH:C:\Users\Administrator\Desktop\EVA\EVA_1 /LIBPATH:"D:\laoc\C_EVA\EVA_NDE - 1\\..\..\..\3rdpartypublic\boost-versions\boost_1_55_0-lib-x64" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"D:\laoc\C_EVA\EVA_NDE - 1\build\intermediates\Debug\x64\EVA_NDE\mmgr_dal_EVA_NDE.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\laoc\C_EVA\EVA_NDE - 1\build\Debug\x64\mmgr_dal_EVA_NDE.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\laoc\C_EVA\EVA_NDE - 1\build\Debug\x64\mmgr_dal_EVA_NDE.lib" /MACHINE:X64 /DLL "D:\laoc\C_EVA\EVA_NDE - 1\build\intermediates\Debug\x64\EVA_NDE\mmgr_dal_EVA_NDE.dll.embed.manifest.res"
+         "D:\laoc\C_EVA\EVA_NDE - 1\build\intermediates\Debug\x64\EVA_NDE\EVA_NDE_TEST.obj"
+         "D:\laoc\C_EVA\EVA_NDE - 1\build\intermediates\Debug\x64\EVA_NDE\XYStage.obj"
+         "D:\laoc\C_EVA\EVA_NDE - 1\build\Debug\x64\MMDevice-SharedRuntime.lib"
+            正在创建库 D:\laoc\C_EVA\EVA_NDE - 1\build\Debug\x64\mmgr_dal_EVA_NDE.lib 和对象 D:\laoc\C_EVA\EVA_NDE - 1\build\Debug\x64\mmgr_dal_EVA_NDE.exp
+         EVA_NDE.vcxproj -> D:\laoc\C_EVA\EVA_NDE - 1\build\Debug\x64\mmgr_dal_EVA_NDE.dll
+       FinalizeBuildStatus:
+         正在删除文件“D:\laoc\C_EVA\EVA_NDE - 1\build\intermediates\Debug\x64\EVA_NDE\EVA_NDE.unsuccessfulbuild”。
+         正在对“D:\laoc\C_EVA\EVA_NDE - 1\build\intermediates\Debug\x64\EVA_NDE\EVA_NDE.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\laoc\C_EVA\EVA_NDE - 1\DeviceAdapters\EVA_NDE\EVA_NDE.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.69
